@@ -1,112 +1,67 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
+#include "Vulture.h"
+#include "Siege_Tank.h"
+#include "Goliath.h"
 
-class Object
+int main()
 {
-private:
-	int width;	// -> ¿©±âÀÖ´Â width, height´Â ¸â¹öº¯¼ö
-	int height;
-
-public:
-	//	Object()	// ±âº» »ı¼ºÀÚ
-	//	{
-	//		cout << "Create Object" << endl;
-	//	}
-	Object(int width, int height)	// -> ¿©±âÀÖ´Â width, height´Â ¸Å°³º¯¼ö
-	{
-		// this Æ÷ÀÎÅÍ´Â ÀÚ±âÀÚ½ÅÀ» °¡¸®Å°´Â Æ÷ÀÎÅÍÀÔ´Ï´Ù.
-		this->width = width;
-		this->height = height;
-	}
-
-	Object(Object & object)	// º¹»ç »ı¼ºÀÚ
-	{
-		cout << "Copy Constrator" << endl;
-	}
-
-	void Adress()
-	{
-		cout << this << endl;
-	}
-	Object This()
-	{
-		return *this;	// Á¢±ÙÇÑ´Ù´Â °³³äÀ¸·Î ÀÌÇØÇÏÀÚ.
-	}
-
-};
-int main() 
-{
-#pragma region º¹»ç »ı¼ºÀÚ
-	// °°Àº °´Ã¼¸¦ º¹»çÇÏ¿© »ı¼º½ÃÅ³ ¶§ È£ÃâµÇ´Â »ı¼ºÀÚÀÔ´Ï´Ù.
-	// -> Stack¿¡ »ı¼º
-
-	// Object object1();	// ±âº» »ı¼ºÀÚ È£Ãâ -> "Create Object"È£Ãâ
+#pragma region ê°€ìƒ í•¨ìˆ˜
+	// ìƒì†í•˜ëŠ” í´ë˜ìŠ¤ ë‚´ì—ì„œ ê°™ì€ í˜•íƒœì˜ í•¨ìˆ˜ë¡œ
+	// ì¬ì •ì˜ ë  ìˆ˜ ìˆëŠ” í•¨ìˆ˜ì…ë‹ˆë‹¤.
 	
-	// Object object1(10, 20);	
+	// Mechanic* machanic = new Vulture();
 	// 
-	// object1.Adress();
+	// machanic->Move();
+	// Mechanic* machanic = new Seige_Tank();
 	// 
+	// machanic->Move();
 	// 
-	// Object object2 = object1;	// º¹»ç »ı¼ºÀÚ È£Ãâ -> "Copy Constrator"È£Ãâ
+	// // ê°€ìƒ í•¨ìˆ˜ ì‹¤í–‰ ì‹œê°„ì— ìƒìœ„ í´ë˜ìŠ¤ì— ëŒ€í•œ ì°¸ì¡°ë¡œ
+	// // í•˜ìœ„ í´ë˜ìŠ¤ì— ì¬ì •ì˜ëœ í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.
 	// 
-	// object2.Adress();
-	
-	// º¹»ç »ı¼ºÀÚ¸¦ Á¤ÀÇÇÏÁö ¾Ê°í °´Ã¼¸¦ º¹»çÇÏ°Ô µÇ¸é
-	// ±âº» º¹»ç »ı¼ºÀÚ°¡ È£ÃâµÇ±â ¶§¹®¿¡ ¾ÔÀº º¹»ç·Î °´Ã¼°¡ º¹»ç µË´Ï´Ù.
-#pragma endregion
-#pragma region ¾èÀº º¹»ç
-
-	// °´Ã¼¸¦ º¹»çÇÒ ¶§ ÁÖ¼Ò °ªÀ» º¹»çÇÏ¿© °°Àº ¸Ş¸ğ¸®¸¦ °¡¸®Å°´Â º¹»ç
-
-	 // int* ptr1 = new int;
-	 // 
-	 // int* ptr2 = ptr1;
-	 // 
-	 // cout << "ptr1ÀÇ °ª : " << ptr1 << endl;
-	 // cout << "ptr2ÀÇ °ª : " << ptr2 << endl;
-	 // 
-	 // 
-	 // // ¾èÀº º¹»çÀÇ °æ¿ì °°Àº °´Ã¼°¡ ¼­·Î °°Àº ¸Ş¸ğ¸® °ø°£À»
-	 // // ÂüÁ¶ÇÏ°í ÀÖ±â ¶§¹®¿¡ ÇÏ³ªÀÇ °´Ã¼·Î °ªÀ» º¯°æÇÏ°Ô µÇ¸é
-	 // // ¼­·Î ÂüÁ¶µÈ °´Ã¼µµ ÇÔ²² ¿µÇâÀ» ¹Ş°Ô µË´Ï´Ù.
-	 // 
-	 // 
-	 // *ptr1 = 999;
-	 // 
-	 // cout << "ptr1ÀÌ °¡¸®Å°´Â °ª : " << *ptr1 << endl;
-	 // cout << "ptr2ÀÌ °¡¸®Å°´Â °ª : " << *ptr2 << endl;
-	  
-	 //delete ptr2;
-
-	 // ¾èÀº º¹»ç´Â °´Ã¼°¡ ¸Ş¸ğ¸®¿¡¼­ ÇØÁ¦µÉ ¶§ »ı¼ºÀÚÀÇ ½ÇÇà ¼ø¼­¿Í
-	 // ¹İ´ë·Î ¼Ò¸êÀÚ°¡ È£ÃâµÇ±â ¶§¹®¿¡ º¹»çÇÑ °´Ã¼°¡ ¸ÕÀú ÇØÁ¦µÇ¹Ç·Î,
-	 // ¿ø·¡ ÀÖ´ø °´Ã¼°¡ ÇØÁ¦µÉ ¶§ ÀÌ¹Ì ÇØÁ¦µÈ ¸Ş¸ğ¸®¿¡ Á¢±ÙÇÏ°Ô µË´Ï´Ù.
+	// cout << "Mechanicì˜ í¬ê¸° : " << sizeof(Mechanic) << endl;
 
 #pragma endregion
-#pragma region ±íÀº º¹»ç
+#pragma region Factory
+	
+	Mechanic* machanic;
+	
+	int countUnit = 0;
 
-	// °´Ã¼¸¦ º¹»çÇÒ ¶§, ÂüÁ¶ °ªÀÌ ¾Æ´Ñ ÀÎ½ºÅÏ½º
-	// ÀÚÃ¼¸¦ »õ·Î º¹»çÇÏ¿© ¼­·Î ´Ù¸¥ ¸Ş¸ğ¸®¸¦
-	// »ı¼ºÇÏ´Â º¹»çÀÔ´Ï´Ù.
 
 	
-	// int* ptr1 = new int;
-	// int* ptr2 = new int;	
-	// // Èü¿¡ ptr1ÀÇ ¸Ş¸ğ¸® °ø°£°ú º°°³·Î ptr2¸¸ÀÇ ¸Ş¸ğ¸® °ø°£À» »ı¼º
-	// 
-	// cout << "ptr1ÀÇ °ª : " << ptr1 << endl;
-	// cout << "ptr2ÀÇ °ª : " << ptr2 << endl;
-	// 
-	// *ptr1 = 100;
-	// *ptr2 = 200;
-	// 
-	// cout << "ptr1ÀÌ °¡¸®Å°´Â °ª : " << *ptr1 << endl;
-	// cout << "ptr2ÀÌ °¡¸®Å°´Â °ª : " << *ptr2 << endl;
-	// 
-	// delete ptr1;
-	// delete ptr2;
+	while (countUnit < 5)
+	{
+		int numUnit = 0;
+		cin >> numUnit;
+		if (numUnit < 3)
+		{
+			switch (numUnit)
+			{
+			case 0:
+				machanic = new Vulture();
+			case 1:
+				machanic = new Siege_Tank();
+			case 2:
+				machanic = new Goliath();
+			default:
+				break;
+			}
+
+		}
+		else
+		{
+			countUnit--;
+			break;
+		}
+		countUnit++;
+	}
 	
+
+
 #pragma endregion
+
 
 	return 0;
 }
