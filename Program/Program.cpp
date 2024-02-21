@@ -41,10 +41,13 @@ int main()
 			{
 			case 0:
 				machanic = new Vulture();
+				break;
 			case 1:
 				machanic = new Siege_Tank();
+				break;
 			case 2:
 				machanic = new Goliath();
+				break;
 			default:
 				break;
 			}
@@ -52,8 +55,7 @@ int main()
 		}
 		else
 		{
-			countUnit--;
-			break;
+			continue;
 		}
 		countUnit++;
 	}
