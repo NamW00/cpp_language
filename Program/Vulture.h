@@ -5,7 +5,8 @@ class Vulture : public Mechanic
 {
 public:
 	Vulture();
-	~Vulture();
-	void Move() override; // override 자체가 재정의
+	virtual ~Vulture();
+
+	void Move() override; // override 자체가 재정의라는 의미
 
 };

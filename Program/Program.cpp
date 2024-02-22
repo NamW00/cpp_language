@@ -1,63 +1,55 @@
 ﻿#include <iostream>
+#include "../Program/Beacon.h"
+#include "../Program/Hydra.h"
+#include "../Program/Juggling.h"
+#include "../Program/Lurker.h"
+
 using namespace std;
-#include "Vulture.h"
-#include "Siege_Tank.h"
-#include "Goliath.h"
 
-int main()
+int main() 
 {
-#pragma region 가상 함수
-	// 상속하는 클래스 내에서 같은 형태의 함수로
-	// 재정의 될 수 있는 함수입니다.
-	
-	// Mechanic* machanic = new Vulture();
-	// 
-	// machanic->Move();
-	// Mechanic* machanic = new Seige_Tank();
-	// 
-	// machanic->Move();
-	// 
-	// // 가상 함수 실행 시간에 상위 클래스에 대한 참조로
-	// // 하위 클래스에 재정의된 함수를 호출할 수 있습니다.
-	// 
-	// cout << "Mechanic의 크기 : " << sizeof(Mechanic) << endl;
+#pragma region 업 캐스팅
 
-#pragma endregion
-#pragma region Factory
-	
-	Mechanic* machanic;
+	Zerg* zerg = nullptr;
+
 	
 	int countUnit = 0;
-
-
+	int numUnit = 0;
 	
-	while (countUnit < 5)
+	
+	while (countUnit < 10)
 	{
-		int numUnit = 0;
+
+		cout << "현재 회복된 유닛 수 : " << countUnit << "마리" << endl;
+		cout << "0 ~ 2 사이의 값을 입력해 주세요 : ";
+		
+	
 		cin >> numUnit;
 		if (numUnit < 3)
 		{
 			switch (numUnit)
 			{
 			case 0:
-				machanic = new Vulture();
+				zerg = new Juggling();
+				
 				break;
 			case 1:
-				machanic = new Siege_Tank();
+				zerg = new Hydra();
+				
 				break;
 			case 2:
-				machanic = new Goliath();
+				zerg = new Lurker();
 				break;
 			default:
 				break;
 			}
-
 		}
 		else
 		{
 			continue;
 		}
 		countUnit++;
+		
 	}
 	
 
