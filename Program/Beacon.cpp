@@ -2,5 +2,5 @@
 
 void Beacon::Trigger(Zerg* zerg)
 {
-
+	zerg->Recovery();
 }

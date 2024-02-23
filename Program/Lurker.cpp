@@ -1,18 +1,17 @@
 #include "Lurker.h"
 
+Lurker::Lurker()
+{
+	health = 125;
+	maxHP = health;
+}
+
+Lurker::~Lurker()
+{
+	cout << "Release Lurker" << endl;
+}
+
 void Lurker::Recovery()
 {
-}
-
-void Lurker::SetHP(int health)
-{
-	this->health = health;
-	cout << "현재 체력 : " << health << endl;
-}
-
-int Lurker::GetHP()
-{
-	this->health = this->maxHP;
-	cout << "회복된 체력 : " << health << endl;
-	return 0;
+	health = maxHP;
 }

@@ -7,7 +7,11 @@ protected:
 	int health;
 	int maxHP;
 public:
-	virtual void Recovery();
-	void SetHP(int health);
+	Zerg();
+	~Zerg();
+
 	int GetHP();
+	void SetHP(int health);
+	
+	virtual void Recovery();
 };

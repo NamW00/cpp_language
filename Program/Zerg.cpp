@@ -1,8 +1,18 @@
 #include "Zerg.h"
 
+Zerg::Zerg()
+{
+	cout << "Create Zerg" << endl;
+}
+
+Zerg::~Zerg()
+{
+	cout << "Release Zerg" << endl;
+}
+
 void Zerg::Recovery()
 {
-
+	cout << "Zerg Recovery" << endl;
 }
 
 void Zerg::SetHP(int health)
@@ -12,5 +22,5 @@ void Zerg::SetHP(int health)
 
 int Zerg::GetHP()
 {
-	return 0;
+	return health;
 }
