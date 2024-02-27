@@ -3,6 +3,12 @@
 // 메모리를 선언해야 스마트 포인터를 사용가능하다.
 using namespace std;
 
+// 다 템플릿을 사용해서 만들어짐
+// File, Player이라는 클래스를 타입으로 들고와서 내부에 있
+// unique_ptr<File>
+// shared_ptr<Player>
+// make_shared<Player>
+
 #pragma region RAII 패턴
 // 자원의 안전한 사용을 위해 객체가
 // 쓰이는 범위를 벗어나게 되면 자원을
@@ -103,6 +109,7 @@ int main()
 	// // counting 된다.
 	// cout << "player1의 참조 횟수 : " << player1.use_count() << endl;
 	//-------------------------------------------------------------------------------*
+	// // weak_ptr
 	// // shared_ptr의 단점 : 각 player 포인터가 가리키는 힙 영역의 메모리에서 
 	// //					 서로 참조하고 있는 값이 있는 경우 player 포인터를 해제해도
 	// //					 count가 1로 유지되어 포인터가 해제되더라도 메모리는 남게되는 단점이 있다.
@@ -114,7 +121,6 @@ int main()
 	// 
 	// player1->SetPartner(player2);
 	// player2->SetPartner(player1);
-
 
 #pragma endregion
 
