@@ -1,2 +1,4 @@
 ﻿  Program.cpp
+C:\Users\Administrator\Desktop\cpp_language\Program\Program.cpp(72,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Administrator\Desktop\cpp_language\Program\Program.cpp(75,6): warning C4101: 'input': unreferenced local variable
   Program.vcxproj -> C:\Users\Administrator\Desktop\cpp_language\Program\x64\Debug\Program.exe
