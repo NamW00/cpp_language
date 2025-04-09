@@ -14,8 +14,9 @@ int main()
 {
 #pragma region 스트림
     /*
-    // 시간의 흐름에 따라 연속적으로 발생하는
-    // 데이터의 흐름입니다.
+    // 시간의 흐름에 따라 연속적으로 발생하는 데이터의 흐름입니다.
+    // 스트림은 운영체제에 의해 생성되며, 스트림 자체에 버퍼라는
+    // 임시 메모리 공간이 존재합니다.
 
      char alphabet = 'A';
      int data = 100;
@@ -37,8 +38,6 @@ int main()
 
      std::cout << "selectCount의 값 : " << selectCount;
 
-     // 스트림의 운영체제에 의해 생성되며, 스트림 자체에 버퍼라는
-     // 임시 메모리 공간이 존재합니다.
      */
 #pragma endregion
 #pragma region 동적 할당

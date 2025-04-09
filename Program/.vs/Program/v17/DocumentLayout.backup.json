@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{903D7261-DC28-4239-A25B-CE8E1747C81C}|Program.vcxproj|C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{903D7261-DC28-4239-A25B-CE8E1747C81C}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E755D4-35E4-4795-9391-575D399CBEB1}|..\\Class1th (Stream)\\Class1th (Stream).vcxproj|C:\\Users\\guddn\\Desktop\\cpp_language\\Class1th (Stream)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D5022D-48F7-4C30-BA03-AD7D70A9D74C}|..\\Class18th (Iterator)\\Class18th (Iterator).vcxproj|C:\\Users\\guddn\\Desktop\\cpp_language\\Class18th (Iterator)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\Program.cpp*",
+              "RelativeToolTip": "Program.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T03:00:40.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class18th (Iterator)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class18th (Iterator)\\Source.cpp",
+              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class18th (Iterator)\\Source.cpp",
+              "RelativeToolTip": "..\\Class18th (Iterator)\\Source.cpp",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T03:00:41.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class1th (Stream)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class1th (Stream)\\Source.cpp",
+              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class1th (Stream)\\Source.cpp",
+              "RelativeToolTip": "..\\Class1th (Stream)\\Source.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T03:00:41.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
