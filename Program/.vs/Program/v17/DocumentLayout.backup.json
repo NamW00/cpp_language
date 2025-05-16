@@ -7,6 +7,12 @@
       "RelativeMoniker": "D:0:0:{903D7261-DC28-4239-A25B-CE8E1747C81C}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{07FE37B7-A760-477B-9FE8-93EC9E6CD668}|..\\Class12th (Smart Pointer)\\Class12th (Smart Pointer).vcxproj|C:\\Users\\guddn\\Desktop\\cpp_language\\Class12th (Smart Pointer)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029CDA22-1044-4DF8-A59F-9529CA00DD0C}|..\\Class17th (Associated Container)\\Class17th (Associated Container).vcxproj|C:\\Users\\guddn\\Desktop\\cpp_language\\Class17th (Associated Container)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20E755D4-35E4-4795-9391-575D399CBEB1}|..\\Class1th (Stream)\\Class1th (Stream).vcxproj|C:\\Users\\guddn\\Desktop\\cpp_language\\Class1th (Stream)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -20,24 +26,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class12th (Smart Pointer)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class12th (Smart Pointer)\\Source.cpp",
+              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class12th (Smart Pointer)\\Source.cpp",
+              "RelativeToolTip": "..\\Class12th (Smart Pointer)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-08T15:04:48.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class17th (Associated Container)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class17th (Associated Container)\\Source.cpp",
+              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class17th (Associated Container)\\Source.cpp",
+              "RelativeToolTip": "..\\Class17th (Associated Container)\\Source.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-08T15:04:41.666Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
               "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\Program.cpp*",
-              "RelativeToolTip": "Program.cpp*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\guddn\\Desktop\\cpp_language\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-08T03:00:40.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class18th (Iterator)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class18th (Iterator)\\Source.cpp",
@@ -49,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\guddn\\Desktop\\cpp_language\\Class1th (Stream)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Stream)\\Source.cpp",
@@ -57,8 +87,7 @@
               "RelativeToolTip": "..\\Class1th (Stream)\\Source.cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-08T03:00:41.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T03:00:41.866Z"
             }
           ]
         }
